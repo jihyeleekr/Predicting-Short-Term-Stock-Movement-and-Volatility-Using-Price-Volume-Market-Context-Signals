@@ -54,9 +54,8 @@ Predict the magnitude of the stock’s next-day price movement.
 
 ### Data Collection Method
 - Data will be collected using financial data APIs and Python libraries such as:
-  - `yfinance`
-  - Alpha Vantage API
-  - Alpaca Market Data API
+  - [`yfinance`](https://ranaroussi.github.io/yfinance/)
+  - [Alpaca Market Data API](https://docs.alpaca.markets/docs/getting-started)
 - Data will be stored locally in CSV files and/or a SQLite database to ensure reproducibility.
 
 ### Stock Universe
