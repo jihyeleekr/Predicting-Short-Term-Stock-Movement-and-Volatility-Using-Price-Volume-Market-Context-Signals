@@ -18,7 +18,7 @@ def download_data(ticker: str, start_date: str, end_date: str) -> pd.DataFrame:
   if df.empty:
     raise ValueError(f"No data returned for ticker: {ticker}")
   
-  df = df.rest_index()
+  df = df.reset_index()
   df["Ticker"] = ticker
   return df
 
